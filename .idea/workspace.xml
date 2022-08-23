@@ -9,11 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac333eda-7397-4898-998d-7c8ff6a1132d" name="Changes" comment="подключил зависимости Servlet и JSP">
+    <list default="true" id="ac333eda-7397-4898-998d-7c8ff6a1132d" name="Changes" comment="обновил код сервлетов">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/AddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/AddServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/ListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/ListServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661256002674</updated>
-      <workItem from="1661256005541" duration="2194000" />
+      <workItem from="1661256005541" duration="2454000" />
     </task>
     <task id="LOCAL-00001" summary="настройка проекта">
       <created>1661256937454</created>
@@ -227,11 +224,36 @@
       <option name="project" value="LOCAL" />
       <updated>1661258187524</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="добавил исключение папки .idea в .gitignore">
+      <created>1661258293504</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661258293504</updated>
+    </task>
+    <task id="LOCAL-00009" summary="обновил код сервлетов">
+      <created>1661258367829</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661258367829</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -252,6 +274,8 @@
     <MESSAGE value="создал пустые сервлеты для страниц add и list" />
     <MESSAGE value="изменился workspace.xml" />
     <MESSAGE value="подключил зависимости Servlet и JSP" />
-    <option name="LAST_COMMIT_MESSAGE" value="подключил зависимости Servlet и JSP" />
+    <MESSAGE value="добавил исключение папки .idea в .gitignore" />
+    <MESSAGE value="обновил код сервлетов" />
+    <option name="LAST_COMMIT_MESSAGE" value="обновил код сервлетов" />
   </component>
 </project>
