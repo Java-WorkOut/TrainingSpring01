@@ -9,10 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac333eda-7397-4898-998d-7c8ff6a1132d" name="Changes" comment="заменяю index.jsp на index.html">
-      <change afterPath="$PROJECT_DIR$/web/views/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/views/list.jsp" afterDir="false" />
+    <list default="true" id="ac333eda-7397-4898-998d-7c8ff6a1132d" name="Changes" comment="подключил зависимости Servlet и JSP">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/AddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/AddServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/servlets/ListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/servlets/ListServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,7 @@
       <list>
         <option value="HTML File" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,6 +41,15 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2DkvfhjsrDvI8PGm1D7uq74thoS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -58,7 +69,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -164,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661256002674</updated>
-      <workItem from="1661256005541" duration="1472000" />
+      <workItem from="1661256005541" duration="2194000" />
     </task>
     <task id="LOCAL-00001" summary="настройка проекта">
       <created>1661256937454</created>
@@ -187,7 +199,35 @@
       <option name="project" value="LOCAL" />
       <updated>1661257260202</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="добивил шаблоны для страниц add и list">
+      <created>1661257719715</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661257719715</updated>
+    </task>
+    <task id="LOCAL-00005" summary="создал пустые сервлеты для страниц add и list">
+      <created>1661257740873</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661257740873</updated>
+    </task>
+    <task id="LOCAL-00006" summary="изменился workspace.xml">
+      <created>1661257767620</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661257767620</updated>
+    </task>
+    <task id="LOCAL-00007" summary="подключил зависимости Servlet и JSP">
+      <created>1661258187524</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661258187524</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +248,10 @@
     <MESSAGE value="настройка проекта" />
     <MESSAGE value="изменение html страницы" />
     <MESSAGE value="заменяю index.jsp на index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="заменяю index.jsp на index.html" />
+    <MESSAGE value="добивил шаблоны для страниц add и list" />
+    <MESSAGE value="создал пустые сервлеты для страниц add и list" />
+    <MESSAGE value="изменился workspace.xml" />
+    <MESSAGE value="подключил зависимости Servlet и JSP" />
+    <option name="LAST_COMMIT_MESSAGE" value="подключил зависимости Servlet и JSP" />
   </component>
 </project>
