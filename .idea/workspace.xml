@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac333eda-7397-4898-998d-7c8ff6a1132d" name="Changes" comment="изменение html страницы">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/index.html" afterDir="false" />
+    <list default="true" id="ac333eda-7397-4898-998d-7c8ff6a1132d" name="Changes" comment="заменяю index.jsp на index.html">
+      <change afterPath="$PROJECT_DIR$/web/views/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/views/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -59,6 +61,11 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pro\IdeaProjects\Training\Spring\Spring01\web" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.62" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.62" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -157,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661256002674</updated>
-      <workItem from="1661256005541" duration="1200000" />
+      <workItem from="1661256005541" duration="1472000" />
     </task>
     <task id="LOCAL-00001" summary="настройка проекта">
       <created>1661256937454</created>
@@ -173,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661257037584</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="заменяю index.jsp на index.html">
+      <created>1661257260202</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661257260202</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +207,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="настройка проекта" />
     <MESSAGE value="изменение html страницы" />
-    <option name="LAST_COMMIT_MESSAGE" value="изменение html страницы" />
+    <MESSAGE value="заменяю index.jsp на index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="заменяю index.jsp на index.html" />
   </component>
 </project>
